@@ -9,7 +9,7 @@
         :connections="room.connections"
       />
     </template>
-    <v-alert prominent tile type="info">
+    <v-alert prominent outlined tile type="info">
       <strong>ATTENTION</strong> if you are accessing this via www.4weird.org
       please switch to www.alienpls.com.
       <strong>
