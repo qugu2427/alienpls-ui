@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3000";
+const apiUrl = "https://api.alienpls.com";
 
 let fetchAsJSON = async function(url, options) {
   let err = "";
