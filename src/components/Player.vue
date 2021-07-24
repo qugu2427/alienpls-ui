@@ -17,7 +17,7 @@
     <div class="d-flex justify-space-between align-center">
       <v-btn fab tile text @click="volumeAlert">
         <v-icon>
-          mdi-volume-high
+          mdi-volume-minus
         </v-icon>
       </v-btn>
       <div v-if="likes == -1">

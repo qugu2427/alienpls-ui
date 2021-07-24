@@ -9,6 +9,13 @@
         :connections="room.connections"
       />
     </template>
+    <v-alert prominent tile type="info">
+      <strong>ATTENTION</strong> if you are accessing this via ww.4weird.org
+      please switch to www.alienpls.com.
+      <strong>
+        Eventually www.4weird.org will no longer direct to this site.
+      </strong>
+    </v-alert>
   </v-container>
 </template>
 
