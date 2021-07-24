@@ -1,8 +1,5 @@
 <template>
   <v-container class="d-flex justify-center flex-wrap">
-    <div class="text-body">
-      Be aware: This site is just a test and may completely break.
-    </div>
     <div class="d-flex flex-column align-center justify-center" v-if="loading">
       <img src="@/assets/loading.gif" />
       <div class="text-h6">loading</div>
@@ -12,6 +9,9 @@
       <div class="text-body">try checking you spelling</div>
     </div>
     <div class="d-flex justify-center flex-wrap" v-else>
+      <div class="text-body text-center">
+        Be aware: This site is just a test and may completely break.
+      </div>
       <div class="d-flex flex-column justify-center">
         <player
           :host="host"
