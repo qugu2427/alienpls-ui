@@ -4,7 +4,7 @@
     style="height: 100%;width: 100%;"
     allow="autoplay"
     :src="
-      `https://clips.twitch.tv/embed?clip=${id}&parent=https://www.alienpls.com&autoplay=true&time=${start}s`
+      `https://clips.twitch.tv/embed?clip=${id}&parent=www.alienpls.com&autoplay=true&time=${start}s`
     "
     frameBorder="0"
   ></iframe>
