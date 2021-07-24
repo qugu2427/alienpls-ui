@@ -1,5 +1,8 @@
 <template>
   <v-container class="d-flex justify-center flex-wrap">
+    <div class="text-body">
+      Be aware: This site is just a test and may completely break.
+    </div>
     <div class="d-flex flex-column align-center justify-center" v-if="loading">
       <img src="@/assets/loading.gif" />
       <div class="text-h6">loading</div>

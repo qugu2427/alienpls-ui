@@ -29,7 +29,7 @@
 export default {
   data() {
     return {
-      shareLink: "join.alienpls.com/losers",
+      shareLink: "www.alienpls.com/rooms/" + this.$route.params.room,
     };
   },
 };
