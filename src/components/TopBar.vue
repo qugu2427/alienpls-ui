@@ -15,7 +15,12 @@
           Create
         </v-btn>
       </router-link>
-      <v-btn text dark tile><v-icon left>mdi-github</v-icon>Contibute</v-btn>
+      <a
+        href="https://github.com/qugu2427/alienpls-ui"
+        class="text-decoration-none"
+      >
+        <v-btn text dark tile><v-icon left>mdi-github</v-icon>Contibute</v-btn>
+      </a>
       <router-link to="/faq" class="text-decoration-none">
         <v-btn text dark tile><v-icon left>mdi-help</v-icon>FAQ</v-btn>
       </router-link>
