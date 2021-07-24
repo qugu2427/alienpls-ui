@@ -28,6 +28,13 @@
         <queue :queue="queue" :token="token" />
         <users :connections="connections" :users="users" />
       </div>
+      <v-alert dense type="info">
+        <strong>ATTENTION</strong> if you are accessing this via ww.4weird.org
+        please switch to www.alienpls.com.
+        <strong>
+          Eventually www.4weird.org will no longer direct to this site.
+        </strong>
+      </v-alert>
     </div>
   </v-container>
 </template>
