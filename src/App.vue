@@ -6,7 +6,9 @@
           {{ error }}
         </v-col>
         <v-col class="shrink">
-          <v-btn tile depressed>Refresh</v-btn>
+          <a href="https://www.alienpls.com" class="text-decoration-none">
+            <v-btn tile depressed>Refresh</v-btn>
+          </a>
         </v-col>
       </v-row>
     </v-alert>

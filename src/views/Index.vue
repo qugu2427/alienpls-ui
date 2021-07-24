@@ -10,10 +10,10 @@
       />
     </template>
     <v-alert prominent tile type="info">
-      <strong>ATTENTION</strong> if you are accessing this via ww.4weird.org
+      <strong>ATTENTION</strong> if you are accessing this via www.4weird.org
       please switch to www.alienpls.com.
       <strong>
-        Eventually www.4weird.org will no longer direct to this site.
+        www.4weird.org will give you a 'backend did not respond error'.
       </strong>
     </v-alert>
   </v-container>
