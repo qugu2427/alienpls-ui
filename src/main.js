@@ -7,6 +7,7 @@ import { io } from "socket.io-client";
 import VueCookie from "vue-cookie";
 
 const socket = io("https://api.alienpls.com", { autoConnect: false });
+// const socket = io("localhost:3000", { autoConnect: false });
 
 Vue.use(VueSocketIOExt, socket);
 Vue.use(VueCookie);

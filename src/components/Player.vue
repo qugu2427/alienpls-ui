@@ -99,11 +99,14 @@ export default {
     };
   },
   methods: {
-    formatSeconds(s) {
-      var minutes = Math.floor((((s % 31536000) % 86400) % 3600) / 60);
-      var seconds = (((s % 31536000) % 86400) % 3600) % 60;
-      var fseconds = seconds < 10 ? "0" + seconds : seconds;
-      return `${minutes}:${fseconds}`;
+    formatSeconds(seconds) {
+      let nhours = Math.floor(((seconds % 31536000) % 86400) / 3600);
+      let nminutes = Math.floor((((seconds % 31536000) % 86400) % 3600) / 60);
+      let nseconds = (((seconds % 31536000) % 86400) % 3600) % 60;
+      let fhours = nhours > 0 ? nhours + ":" : "";
+      let fminutes = nhours > 0 && nminutes < 10 ? "0" + nminutes : nminutes;
+      let fseconds = nseconds < 10 ? "0" + nseconds : nseconds;
+      return `${fhours}${fminutes}:${fseconds}`;
     },
     volumeAlert() {
       alert(

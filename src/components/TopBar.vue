@@ -73,7 +73,6 @@ export default {
       let room = this.$route.params.room;
       if (room != null) {
         this.$cookie.set("room", room, 1);
-        console.log(this.$cookie.get("room"));
       }
       window.location.replace(this.signInUrl);
     },

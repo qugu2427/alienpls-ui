@@ -89,12 +89,6 @@ export default {
       }
       this.voteStatus = res.data.voteStatus;
     },
-    formatSeconds(s) {
-      var minutes = Math.floor((((s % 31536000) % 86400) % 3600) / 60);
-      var seconds = (((s % 31536000) % 86400) % 3600) % 60;
-      var fseconds = seconds < 10 ? "0" + seconds : seconds;
-      return `${minutes}:${fseconds}`;
-    },
     refresh(start) {
       this.start = start;
     },
@@ -170,11 +164,9 @@ export default {
         room: this.$route.params.room,
       });
     }
-    console.log(res.data.currentMedia);
     if (res.data.currentMedia != null) {
       let timeLeft =
         Math.floor(res.data.currentMedia.endTime - Date.now()) / 1000;
-      console.log("timeleft: " + timeLeft);
       let start = res.data.currentMedia.duration - timeLeft;
       if (timeLeft > 2) {
         this.queue.unshift(res.data.currentMedia);
