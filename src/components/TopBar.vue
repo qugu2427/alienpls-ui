@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-app-bar flat color="transparent">
-      <v-toolbar-title>test :)</v-toolbar-title>
+      <v-toolbar-title>AlienPls Test</v-toolbar-title>
       <v-spacer></v-spacer>
       <router-link to="/" class="text-decoration-none">
         <v-btn text dark tile>
