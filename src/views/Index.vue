@@ -10,12 +10,16 @@
       />
     </template>
     <v-alert prominent outlined tile type="info">
+      This site will be down for a while due to developement. Thank you for
+      using it!
+    </v-alert>
+    <!-- <v-alert prominent outlined tile type="info">
       <strong>ATTENTION</strong> if you are accessing this via www.4weird.org
       please switch to www.alienpls.com.
       <strong>
         www.4weird.org will give you a 'backend did not respond error'.
       </strong>
-    </v-alert>
+    </v-alert> -->
   </v-container>
 </template>
 
