@@ -10,16 +10,12 @@
       />
     </template>
     <v-alert prominent outlined tile type="info">
-      This site will be down for a while due to developement. Thank you for
-      using it!
+      Hello, unfortunetly the site has ended up costing way more than I
+      projected/can afford, this is my fault. Thank you to everyone who used it
+      and hopefully I can monetize it in the future. In the meantime you may
+      just have to watch
+      <a href="https://www.twitch.tv/erobb221">twitch.tv/erobb221</a>
     </v-alert>
-    <!-- <v-alert prominent outlined tile type="info">
-      <strong>ATTENTION</strong> if you are accessing this via www.4weird.org
-      please switch to www.alienpls.com.
-      <strong>
-        www.4weird.org will give you a 'backend did not respond error'.
-      </strong>
-    </v-alert> -->
   </v-container>
 </template>
 
